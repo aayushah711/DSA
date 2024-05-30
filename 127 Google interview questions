@@ -1,0 +1,155 @@
+Topics:
+
+Revision Topics (1/3rd time):
+Complexity Analysis, bubble & selection sort, Stacks Data Structures, Queue Data Structures, Sliding window technique, Two pointers Recursion
+Recursion & Backtracking (generate all subsequences, n-queens, sudoku solver), Recursive sorting algorithm - Merge sort, Quick sort, Linked List
+Binary Search, Greedy technique,
+Arrays
+LinkedList
+Design
+String
+Greedy
+
+Learn from Scratch Topics (2/3rd time):
+Dynamic Programming
+Graph theory
+Data Structure 
+Segment Tree
+heaps and priority queue
+Bit Manipulation
+hashmaps
+
+Least preference:
+Binary Search
+
+
+
+
+
+Done - 4.Median of Two Sorted Arrays. Merge sort. 
+Attempted 10.Regular Expression Matching.
+Done - 66.Plus One
+Left - 31.Next Permutation
+Done - 274.H-Index
+Saw the solution - 360.Sort Transformed Array
+Done - 280.Wiggle Sort
+281.Wiggle Sort II
+Attempted - 139.Word Break
+140.Word Break II
+Attempted - 133.Clone Graph
+208.Implement Trie
+314.Binary Tree Vertical Order Traversal
+146.LRU Cache
+460.LFU Cache
+Read editorial but didn't understand - Attempted 312.Burst Balloons
+Attempted 200.Number of Islands
+201.Number of IslandsII
+293.Flip Game
+Attempted 294.Flip Game II
+Done - 375.Guess Number Higher or Lower
+Done - 376.Guess Number Higher or LowerII
+224.Basic Calculator
+282.Expression Add Operators
+320.Generalized Abbreviation
+22.Generate Parentheses
+239.Search a 2D Matrix II
+240.Search a 2D Matrix II
+288.Unique Word Abbreviation
+Read but didn't attempt. 329.Longest Increasing Path in a Matrix
+246.Strobogrammatic Number
+247.Strobogrammatic Number II
+20.Valid Parentheses
+22.Generate Parentheses
+490.The Maze
+505.The Maze II
+Done - 323.Number of Connected Components in an Undirected Graph
+314.Binary Tree Vertical Order Traversal
+394.Decode String
+Done - 377.Combination Sum IV
+316.Remove Duplicate Letters
+Read editorial but didn't understand - 354.Russian Doll Envelopes
+474.Ones and Zeroes
+503.Next Greater Element II
+501.Find Mode in Binary Search Tree
+Read but didn't attempt 298.Binary Tree Longest Consecutive Sequence
+494.Target Sum
+485.Max Consecutive Ones
+487.Max Consecutive Ones II
+475.Heaters
+498.Diagonal Traverse
+486.Predict the Winner
+Done - 310.Minimum Height Trees
+239.Sliding Window Maximum
+Read - 54.Spiral Matrix
+Understood the solution, didn't code - 56.Merge Intervals
+23.Merge K sorted Lists
+284.Peeking Iterator
+480.Sliding Window Median
+Done copied from editorial - 361.Bomb Enemy
+341.Flatten Nested List Iterator
+281.Zigzag Iterator
+Didn't understand 269.Alien Dictionary
+380.Insert Delete GetRandom O(1)
+228.Summary Ranges
+Done - 370.Range Addition
+295.Find Median from Data Stream
+259.3Sum Smaller
+346.Moving Average from Data Stream
+50.Pow(x, n)
+286.Walls and Gates
+Read but didn't attempt 351.Android Unlock Patterns
+200.Number of Islands
+305.Number of Islands II
+271.Encode and Decode Strings
+173.Binary Search Tree Iterator
+57.Insert Interval
+163.Missing Ranges
+218.The Skyline Problem
+42.Trapping Rain Water
+407.Trapping Rain Water II
+297.Serialize and Deserialize Binary Tree
+Done - Read but didn't attempt - 406.Queue Reconstruction by Height
+391.Perfect Rectangle
+471.Encode String with Shortest Length
+465.Optimal Account Balancing
+159.Longest Substring with At Most Two Distinct Characters
+340.Longest Substring with At Most K Distinct Characters
+411.Minimum Unique Word Abbreviation
+336.Palindrome Pairs
+408.Valid Word Abbreviation
+353.Design Snake Game
+362.Design Hit Counter
+155.Min Stack
+251.Flatten 2D Vector
+Done - Read editorial but didn't attempt - 276.Paint Fence
+307.Range Sum Query - Mutable
+308.Range Sum Query 2D - Mutable
+348.Design Tic-Tac-Toe
+400.Nth Digit???没做好
+Done - 253.Meeting Rooms II
+345.Reverse Vowels of a String
+228.Summary Ranges
+293.Flip Game
+294.Flip Game II
+Done - 128.Longest Consecutive Sequence
+Done - 289.Game of Life
+369.Plus One Linked List
+162.Find Peak Element
+Done - 309.Best Time to Buy and Sell Stock with Cooldown
+356.Line Reflection
+447.Number of Boomerangs
+358.Rearrange String k Distance Apart
+417.Pacific Atlantic Water Flow
+326.Power of Three
+231.Power of Two
+Done - Attempted 261.Graph Valid Tree
+257.Binary Tree Paths
+359.Logger Rate Limiter
+389.Find the Difference
+317.Shortest Distance from All Buildings
+425.Word Squares
+Didn't understand 331.Verify Preorder Serialization of a Binary Tree
+422.Valid Word Square
+493.Reverse Pairs
+315.Count of Smaller Numbers After Self
+482.License Key Formatting

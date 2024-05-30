@@ -1,0 +1,39 @@
+index.js *
+1v class Graph {
+2v  constructor() {
+3 this.adjacencyList = {}
+a 5
+
+6v addVertex(vertex) {
+
+7v if(!this.adjacencyList[vertex]) {
+
+8 this.adjacencyList[vertex] = new Set()
+9 &
+10 3
+
+12v addEdge(vertexl, vertex2) {
+13v if(!this.adjacencyList[vertex1]) {
+
+14 this.addVertex(vertexl)
+
+15 1
+
+16v if(!this.adjacencylList[vertex2]) {
+
+17 this.addVertex(vertex2)
+
+18 1
+
+19 this.adjacencylList[vertex1].add(vertex2)
+20 this.adjacencylList[vertex2].add(vertex1)
+210587
+
+220%
+
+23
+
+24 const graph = new Graph()
+25 graph.addVertex ("A")
+26 graph.addVertex("B")
+27 graph.addVertex("C")
