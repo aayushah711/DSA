@@ -1,8 +1,8 @@
 /**
  * @param {number} n
- * @return {string[][]}
+ * @return {number}
  */
-var solveNQueens = function (n) {
+var totalNQueens = function (n) {
   let res = [];
   const memo = Array.from({ length: n }, () =>
     Array.from({ length: n }, () => ".")
@@ -53,7 +53,7 @@ var solveNQueens = function (n) {
     res.push(copy);
   }
   rec(0);
-  return res;
+  return res.length;
 };
 
-solveNQueens(4).forEach((item) => console.log(item));
+console.log(totalNQueens(1));
