@@ -17,12 +17,13 @@ function aggressiveCows(n, k, arr) {
 
   function isValid(key) {
     let count = 1;
+    let lastCow = arr[0];
     for (let i = 1; i < n; i++) {
-      if (arr[i] - arr[i - 1] >= key) {
+      if (arr[i] - lastCow >= key) {
         count++;
+        lastCow = arr[i];
       }
     }
-    count++;
     return count >= k;
   }
 }
@@ -30,3 +31,4 @@ function aggressiveCows(n, k, arr) {
 console.log(aggressiveCows(3, 2, [1, 2, 3]));
 console.log(aggressiveCows(6, 4, [0, 3, 4, 7, 10, 9]));
 console.log(aggressiveCows(5, 2, [4, 2, 1, 3, 6]));
+console.log(aggressiveCows(10, 4, [18, 27, 44, 77, 69, 19, 35, 83, 9, 64]));
