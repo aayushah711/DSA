@@ -1,0 +1,2 @@
+Questions: Is array sorted, unique, contains negative values & 0,
+Approaches: 2 pointer, hashmap, hashmap with prefix sum count, binary search, recursion, graph
