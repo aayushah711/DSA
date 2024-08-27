@@ -111,14 +111,48 @@ class MaxHeap {
   }
 }
 
-let heap = new MaxHeap();
-let arr = [10, 15, 30, 40, 50, 100, 40];
+/**
+ * @param {string[]} tasks
+ * @param {number} n
+ * @return {number}
+ */
+var leastInterval = function (tasks, n) {
+  let hm = {};
+  tasks.map((task) => {
+    if (task in hm) hm[task]++;
+    else hm[task] = 1;
+  });
 
-for (let num of arr) {
-  heap.add(num);
-}
+  let heap = new MaxHeap();
+  for (let key in hm) {
+    heap.add(hm[key]);
+  }
 
-for (let num of arr) {
-  let val = heap.remove();
-  console.log(val);
-}
+  let result = 0;
+  while (heap.size()) {
+    let remainingTasks = [];
+    let cycle = n + 1;
+    while (cycle > 0 && heap.size()) {
+      let val = heap.remove();
+      if (val - 1) {
+        remainingTasks.push(val - 1);
+      }
+      cycle--;
+    }
+    if (!remainingTasks.length) {
+      result += n + 1 - cycle;
+    } else {
+      result += n + 1;
+      remainingTasks.map((num) => heap.add(num));
+    }
+  }
+  return result;
+};
+console.log(leastInterval(["A", "A", "A", "B", "B", "B"], 2)); // AB AB AB: 8
+console.log(leastInterval(["A", "C", "A", "B", "D", "B"], 1)); // ABCDAB: 6
+console.log(leastInterval(["A", "A", "A", "B", "B", "B"], 3)); // AB  AB  AB: 10
+console.log(leastInterval(["D", "A", "D", "B", "D", "C", "D"], 2)); // DABDC D  D: 10
+console.log(leastInterval(["D", "A", "D", "B", "D", "C", "D"], 1)); // DADBDCD: 7
+console.log(
+  leastInterval(["A", "A", "A", "B", "B", "B", "C", "C", "C", "D", "D", "E"], 2)
+); // ABCDABCDABCE: 12
