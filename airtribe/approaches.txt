@@ -1,2 +1,9 @@
 Questions: Is array sorted, unique, contains negative values & 0,
 Approaches: 2 pointer, hashmap, hashmap with prefix sum count, binary search, recursion, graph
+Algorithms: Merge sort, quick sort, Patience sort, Topological sort (kahn's algo), Dijkstra's algorithm
+Traversals: PreOrder, inorder, postorder & level order
+
+Problems in mind:
+shortest path in unweighted graph,
+detect a cycle (linked list, graph)
+Minimum spanning tree (binary, graph)
