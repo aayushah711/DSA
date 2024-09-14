@@ -6,4 +6,6 @@ Traversals: PreOrder, inorder, postorder & level order
 Problems in mind:
 shortest path in unweighted graph,
 detect a cycle (linked list, graph)
-Minimum spanning tree (binary, graph)
+Minimum spanning tree (binary, graph
+
+"in" is for key "of" is for value
