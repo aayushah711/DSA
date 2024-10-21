@@ -1,6 +1,6 @@
 Questions: Is array sorted, unique, contains negative values & 0,
 Approaches: 2 pointer, hashmap, hashmap with prefix sum count, binary search, recursion, graph
-Algorithms: Merge sort, quick sort, Patience sort, Topological sort (kahn's algo), Dijkstra's algorithm
+Algorithms: Merge sort, quick sort, Patience sort, Topological sort (kahn's algo), Dijkstra's algorithm, Union find (Disjoint set)
 Traversals: PreOrder, inorder, postorder & level order
 
 Problems in mind:
@@ -9,3 +9,22 @@ detect a cycle (linked list, graph)
 Minimum spanning tree (binary, graph
 
 "in" is for key "of" is for value
+Don't say your expectations by mistake
+
+For Calculator: 
+- "+", "-", "(", ")". You can parse left to right. Use a stack for brackets. Remember the sign.
+- "+", "-", "*", "/". You can parse left to right. Remember prev_operation curr_operation prev_res curr_res
+
+For finding the row & col value in a matrix:
+row = Math.floor(mid / n)
+col = mid % n
+
+For creating a 2d matrix
+let dp = Array.from({ length: n + 1 }, () =>
+    Array.from({ length: m + 1 }, () => 0)
+  );
+  
+For doing direct search in dp
+let memo = {};
+let key = [idx, amt].join(" ")
+if (key in memo) return memo[key];
