@@ -28,3 +28,10 @@ For doing direct search in dp
 let memo = {};
 let key = [idx, amt].join(" ")
 if (key in memo) return memo[key];
+
+Dijkstra algorithm:
+Relaxation: if (d[u] + c[u,v] <= d[v]) then update d[v] = d[u] + c[u,v]
+
+BFS calculates the shortest path in unweighted graphs.
+Dijkstra's algorithm calculates the shortest path in weighted graphs
+Bellman Ford Algorithm calculates the shortest path in weighted graphs with negative weights, but it will fail if there is a negative cycle
